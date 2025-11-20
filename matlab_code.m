@@ -1,4 +1,4 @@
-%% ===== INPUTS (geometry / profiles / models) ===== %%
+%% ===== INPUTS (geometry / profiles / models) ===== 
 a         = 2.1;        % minor radius [m]
 R_0       = 6.2;        % major radius at axis [m]
 ell       = 1;          % cyclotron harmonic index
@@ -369,3 +369,4 @@ function id = select_density_profile_123()
     if isnan(val) || ~ismember(val,[1,2,3]), val = 1; end
     id = val;
 end
+
